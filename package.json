@@ -1,0 +1,17 @@
+{
+  "name": "code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "theme:list": "theme get --list -p=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 -s=mohoanimation.myshopify.com",
+    "theme:get": "theme get -p=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 -s=mohoanimation.myshopify.com --themeid=120269865142",
+    "theme:new": "theme new -p=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 -s=mohoanimation.myshopify.com -n='Moho - Dev'",
+    "theme:watch": "theme watch --allow-live",
+    "theme:open": "theme open",
+    "theme:deploy": "theme deploy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

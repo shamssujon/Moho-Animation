@@ -1,0 +1,131 @@
+<div class="page product-page">
+	<div class="newsletter-section bg-gradient-primary">
+		<div
+			class="container d-flex flex-column flex-md-row flex-wrap align-items-center justify-content-center gap-2 gap-lg-3"
+		>
+			<h3 class="text-uppercase text-white mb-0">NEWSLETTER</h3>
+			<p class="text-white fst-italic fs-lg mb-2 mb-md-0">Want the latest news of MOHO? Sign up!</p>
+			<form action="#" class="subscribe-form mb-0">
+				<div class="icon">
+					<img src="{{ 'block02_letter-icon.png' | asset_url }}" alt="" />
+				</div>
+				<input type="email" placeholder="Email" class="form-control rounded-pill" />
+				<button type="submit" class="subscribe-btn">
+					<img src="{{ 'block02_button-arrow.png' | asset_url }}" alt="" />
+				</button>
+			</form>
+		</div>
+	</div>
+
+	<div class="moho-pro py-4 py-lg-5 bg-light">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-md-4 text-center">
+					<div class="product-img">
+						<img src="{{ 'box-general.png' | asset_url }}" alt="" class="img-fluid" />
+					</div>
+				</div>
+				<div class="col-md-8">
+					<div class="product-details text-center text-md-start">
+						<h2 class="text-primary text-uppercase fst-italic">Moho Halloween Content Pack</h2>
+						<p class="fst-italic fs-lg">
+							Professionally designed within Moho (formerly Anime Studio), the Halloween Content Pack is
+							full of rigged characters, backgrounds, an example scene using all of the resources and a
+							fully rendered animated video. The content pack demonstrates many of Moho's unique features
+							including Moho's unique rigging and animation capabilities, Smart Bones, Dynamics, Masking,
+							3d space and Frame-by-Frame animation.
+						</p>
+						<div class="d-flex align-items-center justify-content-center justify-content-md-start gap-2">
+							<a class="btn btn-primary-gradient fs-lg px-4" href="#">Buy $19.99</a>
+						</div>
+						<div class="mt-3">
+							<h6 class="text-uppercase fst-italic text-gray fs-xs mb-2">SYSTEM REQUERIMENTS</h6>
+							<p class="fs-xs fst-italic">
+								Moho 12 Debut or higher, Moho Pro 12 or higher. Moho Pro 12 or higher recommended to
+								access Pro features. Up to an additional 30 MB of Free Disk Space recommended.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="pack-includes py-5">
+		<div class="container">
+			<div class="row mb-5">
+				<div class="col-lg-9 mx-auto">
+					<div class="ratio ratio-16x9">
+						<iframe
+							allowfullscreen
+							src="https://www.youtube.com/embed/-7Mr102mll4"
+							title="YouTube video"
+						></iframe>
+					</div>
+				</div>
+			</div>
+			<h2 class="text-gray fst-italic text-capitalized mb-4">Halloween Content Pack Includes:</h2>
+			<div class="row">
+				<div class="col-md-6 mb-4 mb-md-0">
+					<ul>
+						<li>
+							Eight rigged and animated characters: Bat 1, Bat 2, Ghost, Mummy, Pumpkin, Pumpkin bat,
+							Vampire and Zombie
+						</li>
+						<li>Two backgrounds, organized in 3d for easy parallax effect: Forest and Mansion</li>
+						<li>
+							One fully animated scene using all of the resources in the content pack, included an audio
+							file specially created for it.
+						</li>
+						<li>
+							Each character has a pre-made animation. Depending on the character, it'll walk, fly or
+							bite.
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-6 mb-4">
+					<ul>
+						<li>
+							Eight rigged and animated characters: Bat 1, Bat 2, Ghost, Mummy, Pumpkin, Pumpkin bat,
+							Vampire and Zombie
+						</li>
+						<li>Two backgrounds, organized in 3d for easy parallax effect: Forest and Mansion</li>
+						<li>
+							One fully animated scene using all of the resources in the content pack, included an audio
+							file specially created for it.
+						</li>
+						<li>
+							Each character has a pre-made animation. Depending on the character, it'll walk, fly or
+							bite.
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div id="generalCarousel" class="carousel slide bg-light py-5" data-bs-ride="carousel">
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<div class="container">
+					<img src="{{ 'general-img-1.jpg' | asset_url }}" class="d-block w-100" alt="" />
+				</div>
+			</div>
+			<div class="carousel-item">
+				<div class="container">
+					<img src="{{ 'general-img-2.jpg' | asset_url }}" class="d-block w-100" alt="" />
+				</div>
+			</div>
+		</div>
+		<button class="carousel-control-prev" type="button" data-bs-target="#generalCarousel" data-bs-slide="prev">
+			<img src="{{ 'left-icon.png' | asset_url }}" alt="" />
+		</button>
+		<button class="carousel-control-next" type="button" data-bs-target="#generalCarousel" data-bs-slide="next">
+			<img src="{{ 'right-icon.png' | asset_url }}" alt="" />
+		</button>
+	</div>
+	
+
+	{% section 'testimonial' %}
+</div>

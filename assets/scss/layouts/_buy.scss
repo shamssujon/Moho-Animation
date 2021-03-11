@@ -1,0 +1,27 @@
+.box-pro {
+    .has-bg-image {
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+
+        @media (max-width: 767px) {
+            border-radius: 10px;
+        }
+    }
+}
+
+.box-debut {
+    .has-bg-image {
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+
+        @media (max-width: 767px) {
+            border-radius: 10px;
+        }
+    }
+}
+
+#upgrade {
+    .has-bg-image {
+        border-radius: 10px;
+    }
+}

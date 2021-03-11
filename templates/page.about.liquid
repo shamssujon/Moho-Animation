@@ -1,0 +1,123 @@
+<div class="page about-page">
+	<div
+		class="has-bg-image py-5"
+		style="background-image: url({{ 'orange-gradient-bg.jpg' | asset_url }})"
+	>
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-6">
+					<div class="content">
+						<h2 class="text-white text-uppercase fst-italic">THE TEAM</h2>
+						<p class="fs-lg fst-italic text-white">
+							With 21 years of incomparable experience, LOSTMARBLE's award-winning
+							software is the global standard for animation and storyboarding. MOHO
+							PRO and MOHO DEBUT provide everyone from enthusiasts to professionals
+							with the artistic freedom to create in any style and efficiently publish
+							anywhere. We want to let everyone know that this is a great time to be
+							an artist and tell their story. We can help them achieve their goals and
+							save them money, save them time and help take their skills to next
+							level. Along the way, we hope to make new friends and long lasting
+							relationships. What will you create?
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-6 mt-4 mt-lg-0">
+					<div class="ratio ratio-16x9">
+						<iframe
+							allowfullscreen
+							src="https://www.youtube.com/embed/-7Mr102mll4"
+							title="YouTube video"
+						></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="newsletter-section bg-light">
+		<div
+			class="container d-flex flex-column flex-md-row flex-wrap align-items-center justify-content-center gap-2 gap-lg-3"
+		>
+			<h3 class="text-uppercase text-primary mb-0">NEWSLETTER</h3>
+			<p class="fst-italic fs-lg mb-2 mb-md-0">Want the latest news of MOHO? Sign up!</p>
+			<form action="#" class="subscribe-form mb-0">
+				<div class="icon">
+					<img src="{{ 'block02_letter-icon.png' | asset_url }}" alt="" />
+				</div>
+				<input type="email" placeholder="Email" class="form-control rounded-pill" />
+				<button type="submit" class="subscribe-btn">
+					<img src="{{ 'block02_button-arrow.png' | asset_url }}" alt="" />
+				</button>
+			</form>
+		</div>
+	</div>
+
+	<div class="products-block py-5">
+		<div class="container">
+			<div class="row mb-5">
+				<div class="col-md-10 col-lg-8 text-center mx-auto">
+					<h2 class="fst-italic text-uppercase">Moho® 2D Animation Software</h2>
+					<p class="fs-lg fst-italic">
+						Moho has everything you need to make amazing, professional animations. Used
+						in the OSCAR® nominated films, The Breadwinner and Song of the Sea, for Best
+						Animated Feature Film.
+					</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 mb-4 mb-md-0">
+					<div
+						class="product-item product-pro text-center bg-light h-100 d-flex flex-column justify-content-between"
+					>
+						<div class="">
+							<img src="{{ 'BOX-PRO.png' | asset_url }}" alt="" class="mb-3" />
+							<h2 class="fst-italic text-uppercase">Moho Pro 13.5</h2>
+							<p class="fs-lg fst-italic">
+								Moho Pro 13 is changing the animation software game. Combining
+								powerful animation technology with state-of-the-art professional
+								animation tools, you can make your best animation projects come to
+								life faster and easier.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div
+						class="product-item product-debut text-center bg-light h-100 d-flex flex-column justify-content-between"
+					>
+						<div class="">
+							<img src="{{ 'BOX-DEBUT.png' | asset_url }}" alt="" class="mb-3" />
+							<h2 class="fst-italic text-uppercase">Moho DEBUT 13.5</h2>
+							<p class="fs-lg fst-italic">
+								Moho Debut 13, formerly Anime Studio, is animation software that
+								will forever change how you animate and what you create. Whether
+								you’re a professional or you want to animate like one, start using
+								Moho 13 Debut today.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="cta-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 text-md-end order-2 order-md-1 py-5">
+					<h2 class="fst-italic text-primary">We'd love to hear from you!</h2>
+					<p class="fs-lg fst-italic">
+						Whether you have a question about features, trials, pricing, or anything
+						else, our team is ready to answer all you questions.
+					</p>
+					<a href="#" class="btn btn-primary-gradient fs-lg">Send us a message</a>
+				</div>
+				<div class="col-md-6 order-1 order-md-2 align-self-end">
+					<img src="{{ 'about-cta-img.jpg' | asset_url }}" alt="" class="img-fluid" />
+				</div>
+			</div>
+		</div>
+	</div>
+
+	{% section 'testimonial' %}
+</div>

@@ -1,0 +1,76 @@
+// Testimonial
+.testimonial-author {
+    flex-shrink: 0;
+    max-width: 135px;
+}
+
+.carousel-indicators {
+    margin: 0;
+    bottom: 12rem;
+
+    @media (max-width: 991px) {
+        bottom: 13rem;
+    }
+
+    @media (max-width: 767px) {
+        bottom: 0;
+    }
+
+    [data-bs-target] {
+        width: 6px;
+        height: 6px;
+        border: 10px solid transparent;
+        border-radius: 100%;
+        margin: 0;
+        background-color: $gray;
+        opacity: 0.6;
+        transition: opacity .6s ease;
+    }
+
+    .active {
+        background-color: $primary;
+        opacity: 1;
+    }
+}
+
+// Footer
+.footer {
+    .subscribe-form {
+        .form-control {
+            width: 100%;
+        }
+    }
+}
+
+.social {
+    a {
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+}
+
+.footer-links {
+    column-count: 2;
+
+    a {
+        display: inline-block;
+        color: $white;
+        font-size: $fs-sm;
+        font-weight: $fw-bold;
+        padding: 5px 0;
+
+        &:hover {
+            color: $primary;
+        }
+    }
+}
+
+.footer-bottom {
+    background: $dark-orange;
+    background: linear-gradient(90deg, $dark-orange 0%, $light-orange 100%);
+
+    p {
+        font-size: 13px;
+    }
+}

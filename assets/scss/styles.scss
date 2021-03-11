@@ -1,0 +1,15 @@
+// Core styles
+@import 'variables';
+@import 'mixins';
+@import 'base';
+
+// Layouts
+@import 'layouts/header';
+@import 'layouts/home';
+@import 'layouts/features';
+@import 'layouts/addons';
+@import 'layouts/about';
+@import 'layouts/education';
+@import 'layouts/product';
+@import 'layouts/buy';
+@import 'layouts/footer';

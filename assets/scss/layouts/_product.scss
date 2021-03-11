@@ -1,0 +1,24 @@
+// System requirements
+.pack-includes {
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+        li {
+            position: relative;
+            display: flex;
+            gap: 10px;
+            font-size: $fs-lg;
+            font-style: italic;
+            margin-bottom: 20px;
+
+            &::before {
+                content: "\25CF";
+                font-size: 8px;
+                position: relative;
+                top: 6px;
+            }
+        }
+    }
+}

@@ -1,0 +1,71 @@
+// Features page
+.products-block {
+    .product-item {
+        padding: 30px;
+        border-radius: 10px;
+
+        ul {
+            margin-top: 20px;
+
+            li {
+                position: relative;
+                display: flex;
+                gap: 10px;
+                font-size: $fs-lg;
+                font-style: italic;
+                margin-bottom: 20px;
+
+                &::before {
+                    content: "\25CF";
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
+    .product-pro {
+        ul {
+            li {
+                &::before {
+                    color: $primary;
+                }
+            }
+        }
+    }
+
+    .product-debut {
+        ul {
+            li {
+                &::before {
+                    color: $primary;
+                }
+            }
+        }
+    }
+}
+
+
+// System requirements
+.system-requirements {
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+        li {
+            position: relative;
+            display: flex;
+            gap: 10px;
+            font-size: $fs-lg;
+            font-style: italic;
+            margin-bottom: 20px;
+
+            &::before {
+                content: "\25CF";
+                font-size: 8px;
+                position: relative;
+                top: 6px;
+            }
+        }
+    }
+}

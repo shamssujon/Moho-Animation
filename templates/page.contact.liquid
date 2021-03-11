@@ -1,0 +1,126 @@
+<div class="page contact-page">
+	<div class="newsletter-section bg-light">
+		<div
+			class="container d-flex flex-column flex-md-row flex-wrap align-items-center justify-content-center gap-2 gap-lg-3"
+		>
+			<h3 class="text-uppercase text-primary mb-0">NEWSLETTER</h3>
+			<p class="fst-italic fs-lg mb-2 mb-md-0">Want the latest news of MOHO? Sign up!</p>
+			<form action="#" class="subscribe-form mb-0">
+				<div class="icon">
+					<img src="{{ 'block02_letter-icon.png' | asset_url }}" alt="" />
+				</div>
+				<input type="email" placeholder="Email" class="form-control rounded-pill" />
+				<button type="submit" class="subscribe-btn">
+					<img src="{{ 'block02_button-arrow.png' | asset_url }}" alt="" />
+				</button>
+			</form>
+		</div>
+	</div>
+
+	<div class="promo-products-section">
+		<div class="product-grid">
+			<div class="item item-1 pb-4 py-lg-4" style="background-image: url({{ 'block03_bg01.png' | asset_url }})">
+				<div class="container ms-lg-auto me-lg-0">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="content d-flex flex-column flex-md-row align-items-center">
+								<div class="product-img">
+									<img src="{{ 'block03_BOX-PRO.png' | asset_url }}" alt="" />
+								</div>
+								<div class="product-details text-center text-md-start">
+									<h2 class="text-uppercase fst-italic">Moho Pro 13.5</h2>
+									<p class="fst-italic fs-lg">
+										Moho Pro 13 is changing the animation software game. Combining powerful
+										animation technology with state-of-the-art professional animation tools, you can
+										make your best animation projects come to life faster and easier.
+									</p>
+									<div
+										class="d-flex align-items-center justify-content-center justify-content-md-start gap-2"
+									>
+										<a class="btn btn-white-outlined fs-lg px-3" href="#">Buy $399.99</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="item item-2 pb-4 py-lg-4" style="background-image: url({{ 'block03_bg02.png' | asset_url }})">
+				<div class="container me-lg-auto ms-lg-0">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="content d-flex flex-column flex-md-row align-items-center">
+								<div class="product-img">
+									<img src="{{ 'block03_BOX-DEBUT.png' | asset_url }}" alt="" />
+								</div>
+								<div class="product-details text-center text-md-start">
+									<h2 class="text-uppercase fst-italic">Moho Debut 13.5</h2>
+									<p class="fst-italic fs-lg">
+										Moho Debut 13 is a professional-grade animation software that will forever
+										change what you create and how you animate. Whether you’re a professional or you
+										want to animate like one, start using Moho 13 Debut today.
+									</p>
+									<div
+										class="d-flex align-items-center justify-content-center justify-content-md-start gap-2"
+									>
+										<a class="btn btn-white-outlined fs-lg px-3" href="#">Buy $59.99</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="contact-section bg-light py-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 mx-auto text-center">
+					<h2 class="text-primary fst-italic">Contact us!</h2>
+					<p class="fs-lead">
+						How can we help? You can reach us at
+						<a class="text-gray" href="mailto:contact@mohoanimation.com ">
+							<strong>contact@mohoanimation.com </strong></a
+						>
+						or via regular mail at LostMarble LLC - 2605 Camino Tassajara, #2594 Danville, CA 94526.
+						<br />
+						You can also provide us your comments, feedback, and inquiries below.
+						<br />
+						We look forward to hearing from you and will reply back shortly.
+					</p>
+				</div>
+			</div>
+
+			<div class="row mt-4">
+				<div class="col-md-8 col-lg-6 mx-auto">
+					<form action="#" class="contact-form">
+						<div class="mb-3">
+							<input type="text" class="form-control rounded-pill px-4" placeholder="Full Name*" />
+						</div>
+						<div class="mb-3">
+							<input type="email" class="form-control rounded-pill px-4" placeholder="Email*" />
+						</div>
+						<div class="mb-3">
+							<select class="form-select rounded-pill px-4">
+								<option selected>Select a reason</option>
+								<option>Reason 1</option>
+								<option>Reason 2</option>
+								<option>Reason 3</option>
+							</select>
+						</div>
+						<div class="mb-3">
+							<textarea rows="8" class="form-control px-4" placeholder="Message"></textarea>
+						</div>
+						<div class="text-center">
+							<button class="btn btn-primary-gradient fs-lg px-4" type="submit">Submit</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	{% section 'testimonial' %}
+</div>
